@@ -1,0 +1,10 @@
+{
+  "name": "kdteam/kdteam-classes-composer",
+  "description": "kdteam classes composer",
+  "version": "1.0.0",
+  "autoload": {
+    "classmap": [
+      "kdteam-classes-composer/"
+    ]
+  }
+}
