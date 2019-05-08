@@ -3,6 +3,9 @@
   "description": "kdteam classes composer",
   "type": "library",
   "minimum-stability": "alpha",
+  "require": {
+        "php": ">=5.4.0"
+    },
   "autoload": {
     "psr-0": {
       "Coupon": "src/"
