@@ -2,7 +2,7 @@
   "name": "kdteam/kdteam-classes-composer",
   "description": "kdteam classes composer",
   "type": "library",
-  "minimum-stability": "alpha",
+  "minimum-stability": "dev",
   "require": {
         "php": ">=5.4.0"
     },
