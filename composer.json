@@ -1,11 +1,13 @@
 {
   "name": "kdteam/kdteam-classes-composer",
   "description": "kdteam classes composer",
+  "version": "1.0.0",
   "type": "library",
-  "minimum-stability": "alpha",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
   "autoload": {
-    "psr-0": {
-      "Coupon": "src/"
-    }
+    "classmap": ["src/"]
   }
 }
