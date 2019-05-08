@@ -1,6 +1,7 @@
 {
   "name": "kdteam/kdteam-classes-composer",
   "description": "kdteam classes composer",
+  "version": "1.0.0",
   "type": "library",
   "minimum-stability": "dev",
   "require": {
