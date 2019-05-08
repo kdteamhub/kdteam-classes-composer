@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "type": "library",
   "minimum-stability": "dev",
-  "license": "kdteam",
   "require": {
         "php": ">=5.4.0"
     },
