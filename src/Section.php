@@ -33,7 +33,7 @@ class Section
      * @param array $arSelectFields массив названий полей, которые должны быть получены по каждой категории
      * @return array
      */
-    public function getList($arFilterFields = array(), $arSelectFields = array())
+    public function getList($arFilterFields = array(), $arSelectFields = array(), $bIncCnt = false)
     {
         $arFilter = array('IBLOCK_ID' => $this->iblockId);
         $arSelect = array('ID');
@@ -50,7 +50,7 @@ class Section
             }
         }
 
-        $db_list = \CIBlockSection::GetList(false, $arFilter, false, $arSelect);
+        $db_list = \CIBlockSection::GetList(false, $arFilter, $bIncCnt, $arSelect);
         $arReturn = array();
         while ($obEl = $db_list->GetNext()) {
             array_push($arReturn, $obEl);
